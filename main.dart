@@ -19,4 +19,10 @@ void main() {
     print("Unit Tersedia : $unitTotal");
     print("Harga unit : $carPrice");
     print("Ketersediaan : $soldOut");
+
+    /*
+    Null assertion Operator. Ngubah yang tadinya nullable jadi non-nullable
+    ini gak bakal error karena udah diisi pakai null aware operator.
+    */
+    print(available!.toUpperCase());
 }
