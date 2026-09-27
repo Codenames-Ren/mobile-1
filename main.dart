@@ -100,4 +100,17 @@ void main() {
     print(mobil['nama_unit']);
     print(mobil['tahun_produksi']);
 
+    // Object 
+    Object data = 'Bayu';
+    data = 24;
+    data = true;
+
+    if (data is int) { //gak akan muncul karena tipe datanya gak terdaftar sebagai int
+      print(data);
+    }
+
+    if (data is bool) { //muncul karena tipe data boolean terdaftar
+      print(data);
+    }
+
 }
