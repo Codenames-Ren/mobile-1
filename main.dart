@@ -113,4 +113,7 @@ void main() {
       print(data);
     }
 
+    //Dynamic
+    dynamic name = "Bayu";
+    print(name.toUpperCase());
 }

@@ -10,7 +10,7 @@
 <b>Set</b> Mirip list tapi gak simpen nilai duplikat kayak list. <br>
 <b>Map<b> Nyimpen data sebagai pasangan key dan value. mirip response berbentuk api json. <br>
 <b>Object</b> digunakan buat nyimpen objek dengan tipe yang beda beda. biasanya sebelum dipake perlu diperiksa pake kondisinal kayak if. <br>
-
+<b>Dynamic</b> tipenya bisa berubah ubah. tapi harus hati hati karena dalam beberapa percobaan, ternyata kalo tipe datanya diubah secara asal bakal crash saat running.
 
 
 ## Sound Null Safety
