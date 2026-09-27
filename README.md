@@ -8,7 +8,7 @@
 <b> num </b> bisa nyimpen nilai int maupun double jika nilainya bisa bilangan bulat atau desimal. Tapi kalo datanya udah tau dari awal, lebih baik deklarasi pakai int atau double biar lebih jelas. <br>
 <b>list</b> gunanya buat nyimpen banyak data dari tipe data yang sama, misal kayak kumpulan data string, integer atau double. Tipe data ini biasanya diindex berdasarkan urutan ke-0 sebagai paling awalnya<br>
 <b>Set</b> Mirip list tapi gak simpen nilai duplikat kayak list. <br>
-<b>Map<b> Nyimpen data sebagai pasangan key dan value. mirip response berbentuk api json. <br>
+<b>Map</b> Nyimpen data sebagai pasangan key dan value. mirip response berbentuk api json. <br>
 <b>Object</b> digunakan buat nyimpen objek dengan tipe yang beda beda. biasanya sebelum dipake perlu diperiksa pake kondisinal kayak if. <br>
 <b>Dynamic</b> tipenya bisa berubah ubah. tapi harus hati hati karena dalam beberapa percobaan, ternyata kalo tipe datanya diubah secara asal bakal crash saat running.
 
