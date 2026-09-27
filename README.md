@@ -24,3 +24,7 @@ Nilainya harus ada dulu sebelum program di run (compile). Karena deklarasi ini b
 
 ## Late Modifier
 Bisa dipakai kalo tope datanya non-nullable (ada valuernya). Gunanya buat nentuin value sebelum kodenya dibaca compiler. Misal diawal deklarasi tipe datanya dulu, lalu dibawahnya tipe data itu baru diisi valuenya. ini bakal tetep aman setelah di inisiasi.
+
+## Screenshot Final
+![Screenshot Final](Screenshot/validation1.png)
+![Screenshot Final](Screenshot/validation2.png)
