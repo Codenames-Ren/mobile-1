@@ -14,3 +14,6 @@ Tipe data final nilai variabelnya hanya bisa di isi satu kali pas aplikasi berja
 
 ## Const
 Nilainya harus ada dulu sebelum program di run (compile). Karena deklarasi ini butuh value yang jelas dan gak bergantung sama input setelah program berjalan. Bedanya sama final, kalo final valuenya tetap setelah compile berjalan, sementara const sebelum berjalan valuenya harus sudah ada.
+
+## Late Modifier
+Bisa dipakai kalo tope datanya non-nullable (ada valuernya). Gunanya buat nentuin value sebelum kodenya dibaca compiler. Misal diawal deklarasi tipe datanya dulu, lalu dibawahnya tipe data itu baru diisi valuenya. ini bakal tetep aman setelah di inisiasi.

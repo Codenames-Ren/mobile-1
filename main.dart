@@ -50,4 +50,17 @@ void main() {
 
     print("$tax $currency");
 
+
+    /* 
+    Late Modifier. bisa dipake kalo tipe datanya non-nullable (ada valuenya)
+    tapi nilainya di tentuin setelah deklarasi.
+    */
+
+    late String invoice;
+
+    void invoiceNumber() {
+      invoice = "ORD-${DateTime.now().millisecondsSinceEpoch}";
+      print(invoice);
+    }
+
 }
