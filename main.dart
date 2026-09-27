@@ -78,4 +78,14 @@ void main() {
     //index dimulai dari 0 sampe N (index paling akhir)
     print(deretAngka[0]);
     print(deretAngka[1]);
+
+    //Set
+    Set<int> angka = {
+      20,
+      20, //gak akan ikut ke print karena nilainya duplikat
+      21,
+      22,
+    };
+
+    print(angka);
 }

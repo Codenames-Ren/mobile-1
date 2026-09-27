@@ -7,6 +7,7 @@
 <b>bool (boolean) </b> : nyimpen logika benar (true) atau salah (false) <br>
 <b> num </b> bisa nyimpen nilai int maupun double jika nilainya bisa bilangan bulat atau desimal. Tapi kalo datanya udah tau dari awal, lebih baik deklarasi pakai int atau double biar lebih jelas. <br>
 <b>list</b> gunanya buat nyimpen banyak data dari tipe data yang sama, misal kayak kumpulan data string, integer atau double. Tipe data ini biasanya diindex berdasarkan urutan ke-0 sebagai paling awalnya<br>
+<b>Set</b> Mirip list tapi gak simpen nilai duplikat kayak list. <br>
 
 
 ## Sound Null Safety
