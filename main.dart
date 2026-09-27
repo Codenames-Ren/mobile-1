@@ -63,4 +63,19 @@ void main() {
       print(invoice);
     }
 
+    // Tipe data num
+    num value = 9;
+    value = 9.5;
+    print(value);
+
+    //Tipe data list 
+    List<int> deretAngka = [
+      10,
+      9,
+      8,
+    ];
+
+    //index dimulai dari 0 sampe N (index paling akhir)
+    print(deretAngka[0]);
+    print(deretAngka[1]);
 }
