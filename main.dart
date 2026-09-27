@@ -88,4 +88,16 @@ void main() {
     };
 
     print(angka);
+
+    //map nyimpen data sebagai pasangan kunci dan nilai. Mirip response json dari API
+    //Dynamic artinya valuenya bisa punya tipe data yang beda beda (gak cuma 1 tipe data)
+    Map<String, dynamic> mobil = {
+    'nama_unit': 'Lamborgini',
+    'tahun_produksi': "2025",
+    'garansi': "5 tahun",
+    };
+
+    print(mobil['nama_unit']);
+    print(mobil['tahun_produksi']);
+
 }
