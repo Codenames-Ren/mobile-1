@@ -11,3 +11,6 @@ Variable yang pakai tanda tanya (?) saat deklarasi variablenya otomatis bersifat
 
 ## Tipe data final
 Tipe data final nilai variabelnya hanya bisa di isi satu kali pas aplikasi berjalan. Setelahnya gak bisa diubah ubah lagi valuenya.
+
+## Const
+Nilainya harus ada dulu sebelum program di run (compile). Karena deklarasi ini butuh value yang jelas dan gak bergantung sama input setelah program berjalan. Bedanya sama final, kalo final valuenya tetap setelah compile berjalan, sementara const sebelum berjalan valuenya harus sudah ada.

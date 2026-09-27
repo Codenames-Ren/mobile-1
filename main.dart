@@ -44,8 +44,10 @@ void main() {
     final DateTime orderTime = DateTime.now();
     print("Nomor Order : $purchaseNumber $orderTime");
     
+    // Const. Mirip kayak final, bedanya valuenya harus udah diisi sebelum compiler dijalankan.
     const double tax = 0.25;
     const String currency = "USD";
 
     print("$tax $currency");
+
 }
