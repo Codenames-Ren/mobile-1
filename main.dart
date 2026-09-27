@@ -7,17 +7,26 @@ void main() {
     double carPrice = 25000.0;
     
     //Nullable variable
+    /* ini bakal error ternyata kalo pake nullable operator biasa.
+    solusinya biar gak error harus diubah jadi Null-Aware Assignment Operator dulu.
+    supaya pas dijalanin pakai null assertion gak crash soalnya valuenya diisi lewat variabel
+    soldOut */
+
+    //ini deklarasi variable awalnya
     String? available = null;
 
+    //kemudian isi nilainya disini supaya gak crash saat pakai assertion operator
+    available ??= "Out of Stock";
+
     // Null-Aware Operator : pake tanda tanya (?) 2 kali, gunanya buat alternatif kao datanya null.
-    String soldOut = available ?? 'Out of Stock';
+    String soldOut = available ?? 'Out of Stock'; //disini muncul warning karena variable available udah gak null lagi.
     
     // Nilai variable bisa diubah
     unitTotal = 0;
     
     print("Nama unit : $carName");
     print("Unit Tersedia : $unitTotal");
-    print("Harga unit : $carPrice");
+    print("Harga unit : \$ $carPrice");
     print("Ketersediaan : $soldOut");
 
     /*
@@ -25,4 +34,18 @@ void main() {
     ini gak bakal error karena udah diisi pakai null aware operator.
     */
     print(available!.toUpperCase());
+
+    /* Tipe data final.
+    Tipe data ini membuat variable cuma bisa diisi nilai satu kali. 
+    setelahnya gak bisa lagi diganti.
+    */
+
+    final String purchaseNumber = 'ORD-0001'; //implisit dan udah ada nilainya
+    final DateTime orderTime = DateTime.now();
+    print("Nomor Order : $purchaseNumber $orderTime");
+    
+    const double tax = 0.25;
+    const String currency = "USD";
+
+    print("$tax $currency");
 }
